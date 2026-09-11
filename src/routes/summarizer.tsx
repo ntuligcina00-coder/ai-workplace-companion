@@ -32,7 +32,7 @@ export const Route = createFileRoute("/summarizer")({
       },
     ],
   }),
-  component: Summarizer;
+  component: Summarizer,
 });
 
 const SAMPLE = `Weekly product sync — attendees: Priya, Daniel, Sam, Thandi
