@@ -20,7 +20,7 @@ export function delay(ms: number) {
 }
 
 function pick<T>(items: T[], seed: number): T {
-  return items[Math.abs(seed) % items.length];
+  return items[Math.abs(seed) % items.length] as T;
 }
 
 function hash(input: string): number {
